@@ -62,7 +62,7 @@ body{
     padding-right: 90px;
     text-align: justify;
     font-weight: 100;
-    color: rgba(0, 0, 0, 0.692);
+    color: #707070;
 }
 .blog-1 > div > button{
     display: block;
@@ -86,8 +86,6 @@ body{
 /* blog-2 */
 .blog-2{
     display: flex;
-    /* padding-top: 90px; */
-    /* padding-bottom: 90px; */
     padding-left: 125px;
     padding-right: 125px;
     margin-top: 7%;
@@ -128,4 +126,49 @@ body{
     margin: 0%;
     width: 300px;
     height: 100px;
+}
+/* Their lives depend on your donation */
+
+/* mini-blogs */
+.mini-blogs{
+    display: flex;
+    margin-bottom: 2%;
+}
+.mini-blogs > section{
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.mini-blogs > section > div{
+    background-color: #FEF4F5;
+    border-radius: 10px;
+}
+.mini-blogs > section > div img{
+    width: 50px;
+    height: 50px;
+    margin-top: 37%;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.direct{
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.direct > p{
+    color: #707070;
+    font-weight: 300;
+}
+.lives-depend > header{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 35px;
+    padding-left: 400px;
+    padding-right: 400px;
+    color: #707070;
+}
+.lives-depend > header > h1{
+    font-size: 42px;
+    margin: 0%;
+    color: black;
 }
