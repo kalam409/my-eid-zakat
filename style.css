@@ -2,11 +2,9 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0%;
 }
+/* Header */
 .header-bg{
     background: linear-gradient(to left,rgba(128, 128, 128, 0.158),rgba(0, 0, 0, 0.767)),url(images/header-bg.jpg);
-}
-main > section > header > h1{
-    margin: 0%;
 }
 .header-text{
     padding-top: 90px;
@@ -19,10 +17,13 @@ main > section > header > h1{
 .header-text > h1{
     font-size: 55px;
     font-weight: 900;
+    margin: 0%;
 }
 .header-text > p{
     font-size: 14px;
-    padding-right: 105px; 
+    padding-right: 105px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.815);
 }
 .header-text > button{
     display: block;
@@ -31,10 +32,100 @@ main > section > header > h1{
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 4%;
     border: none;
+    border-radius: 5px;
 }
 .header-text > button > a{
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+/* blogs */
+.blog-1{
+    display: flex;
+    /* padding-top: 90px; */
+    /* padding-bottom: 90px; */
+    padding-left: 125px;
+    padding-right: 125px;
+    margin: 0%;
+}
+.blog-1 > div > h1{
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0%;
+    padding-right: 25px;
+    padding-top: 190px;
+}
+.blog-1 > div > p{
+    font-size: 14px;
+    padding-right: 90px;
+    text-align: justify;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.692);
+}
+.blog-1 > div > button{
+    display: block;
+    background-image: linear-gradient(tomato, rgb(250, 37, 0));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 4%;
+    border: none;
+    border-radius: 5px;
+}
+.blog-1 > div > button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.blog-1 > .video{
+    margin: 0%;
+}
+/* blog-2 */
+.blog-2{
+    display: flex;
+    /* padding-top: 90px; */
+    /* padding-bottom: 90px; */
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-top: 7%;
+}
+.blog-2 > div > h1{
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0%;
+    padding-left: 320px;
+    padding-top: 190px;
+}
+.blog-2 > div > p{
+    font-size: 14px;
+    padding-left: 320px;
+    padding-right: 15px;
+    text-align: justify;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.692);
+}
+.blog-2 > div > button{
+    display: block;
+    background-image: linear-gradient(tomato, rgb(250, 37, 0));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 4%;
+    margin-left: 37%;
+    border: none;
+    border-radius: 5px;
+}
+.blog-2 > div > button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.blog-2 > .img-1{
+    margin: 0%;
+    width: 300px;
+    height: 100px;
 }
