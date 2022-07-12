@@ -95,7 +95,7 @@ body{
     font-weight: 900;
     margin: 0%;
     padding-left: 320px;
-    padding-top: 190px;
+    padding-top: 100px;
 }
 .blog-2 > div > p{
     font-size: 14px;
@@ -161,7 +161,7 @@ body{
 }
 .lives-depend > header{
     text-align: center;
-    padding-top: 130px;
+    padding-top: 190px;
     padding-bottom: 35px;
     padding-left: 400px;
     padding-right: 400px;
@@ -191,15 +191,22 @@ body{
     padding-right: 20px;
     padding-left: 20px;
 }
-/* .photo-1{
-    width: 364px;
-    height: 390px;
+/* footer section */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.photo-2{
-    width: 364px;
-    height: 390px;
+footer h1{
+    color: #FF5959;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    margin: 0%;
 }
-.photo-3{
-    width: 364px;
-    height: 390px;
-} */
+footer p{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+}
