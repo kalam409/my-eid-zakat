@@ -172,3 +172,34 @@ body{
     margin: 0%;
     color: black;
 }
+/* photo-album section */
+.photos{
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.photo-1{
+    padding-right: 20px;
+}
+.photo-2{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.photo-3{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* .photo-1{
+    width: 364px;
+    height: 390px;
+}
+.photo-2{
+    width: 364px;
+    height: 390px;
+}
+.photo-3{
+    width: 364px;
+    height: 390px;
+} */
